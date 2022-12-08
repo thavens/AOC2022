@@ -13,8 +13,23 @@ src="src/bin/day1.rs"
 name="day2"
 src="src/bin/day2.rs"
 
+[[bin]]
+name="day3"
+src="src/bin/day3.rs"
+
+[[bin]]
+name="day4"
+src="src/bin/day4.rs"
+
+[[bin]]
+name="day5"
+src="src/bin/day5.rs"
+
 [dev-dependencies]
 pretty_assertions = "1"
+
+[dependencies]
+regex = "1.7.0"
 
 [profile.bench]
 opt-level = 3
